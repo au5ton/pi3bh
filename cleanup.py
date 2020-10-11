@@ -5,6 +5,13 @@ import time
 import shutil
 import argparse
 from pathlib import Path
+from datetime import datetime
+
+print(f'''
+----------
+cleanup.py
+{datetime.now()}
+''')
 
 # see: https://stackoverflow.com/a/1094933
 def sizeof_fmt(num, suffix='B'):
